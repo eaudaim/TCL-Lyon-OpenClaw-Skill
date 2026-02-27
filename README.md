@@ -125,28 +125,6 @@ python3 ~/.openclaw/skills/tcl-lyon/tcl_tool.py stops "Part-Dieu"
 
 ---
 
-## Mise à jour automatique
-
-Les données GTFS évoluent quotidiennement. Pour automatiser la mise à jour, ajoutez un cron job OpenClaw ou un script shell à planifier :
-
-```bash
-#!/bin/bash
-# update_tcl_gtfs.sh
-SKILL_DIR="$HOME/.openclaw/skills/tcl-lyon"
-TMP_DIR=$(mktemp -d)
-
-# Télécharger et extraire (adapter l'URL selon la source)
-wget -q -O "$TMP_DIR/gtfs.zip" "<URL_GTFS>"
-unzip -q "$TMP_DIR/gtfs.zip" -d "$TMP_DIR/gtfs"
-
-# Reimporter
-python3 "$SKILL_DIR/import_gtfs.py" "$TMP_DIR/gtfs"
-
-# Nettoyage
-rm -rf "$TMP_DIR"
-```
-
----
 
 ## Limites connues
 
