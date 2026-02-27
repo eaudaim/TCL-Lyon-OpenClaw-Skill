@@ -2,7 +2,7 @@
 
 Un skill [OpenClaw](https://openclaw.ai) pour interroger les horaires du réseau TCL (Transports en Commun Lyonnais) en langage naturel, depuis une base de données GTFS locale.
 
-> **Conçu pour les modèles locaux (Ollama)** — fonctionne sans API cloud, sans connexion internet, et produit des réponses fiables même sur des modèles de 7B à 20B paramètres.
+> **Conçu pour les modèles locaux (Ollama)** — fonctionne sans API cloud, sans connexion internet, et produit des réponses fiables même sur des modèles légers (testé sur un 20B).
 
 ---
 
