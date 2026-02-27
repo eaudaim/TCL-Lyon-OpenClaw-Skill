@@ -15,7 +15,6 @@ Un skill [OpenClaw](https://openclaw.ai) pour interroger les horaires du réseau
 - Informations sur une ligne (type, nom complet)
 - Gestion des horaires après minuit (GTFS > 24h)
 - Gestion des exceptions calendaires (jours fériés, services spéciaux)
-- Slash command `/tcl_lyon` pour forcer l'usage du skill sans passer par web_search
 
 ## Couverture
 
