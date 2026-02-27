@@ -74,7 +74,7 @@ python3 ~/.openclaw/skills/tcl-lyon/tcl_tool.py departures "Bellecour"
 
 ## Utilisation
 
-### Via OpenClaw (langage naturel)
+### Via le chat OpenClaw (langage naturel)
 
 ```
 "Quels sont les prochains passages du bus 31 à Saint-Rambert ?"
@@ -83,7 +83,7 @@ python3 ~/.openclaw/skills/tcl-lyon/tcl_tool.py departures "Bellecour"
 "C'est quoi la ligne C14 ?"
 ```
 
-### Via slash command (pour forcer l'usage du skill)
+### Via slash command (pour forcer l'usage du skill depuis le chat OpenClaw)
 
 Si votre agent préfère web_search pour les questions d'horaires, utilisez la slash command pour forcer le skill :
 
